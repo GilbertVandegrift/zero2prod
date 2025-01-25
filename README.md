@@ -1,6 +1,10 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 //^install rust
 
+On Linux Ubuntu: 
+sudo apt-get install lld clang
+
+
 cargo install cargo-watch
 
 rustup component add llvm-tools-preview
